@@ -1,11 +1,80 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Perfil de usuario de Matías, estudiante de Ingeniería en Sistemas">
+    <title>Perfil de Usuario</title>
 </head>
 <body>
+<!-- Encabezado -->
+<header>
+    <h1>Perfil de Usuario</h1>
+    <h2>Matías Altamirano - Estudiante de Ingeniería en Sistemas</h2>
+</header>
 
+<!-- Contenido principal -->
+<main>
+    <!-- Biografía -->
+    <article>
+        <h2>Biografía</h2>
+        <p>
+            Soy estudiante de Ingeniería en Sistemas en la UTN. Me apasionan la tecnología, los videojuegos
+            (especialmente Resident Evil, Minecraft y GTA), y aprender programación. También disfruto
+            juntarme con amigos y compartir un buen asado. Me considero responsable, confiable y siempre
+            con ganas de mejorar.
+        </p>
+    </article>
+
+    <!-- Imagen de perfil -->
+    <section>
+        <h2>Mi Foto</h2>
+        <img src="foto-perfil.jpg" alt="Foto de perfil" width="250">
+        <p>Este soy yo, con mis cuatros ojos.</p>
+
+    </section>
+        <!-- Tabla de contacto -->
+        <h2>Detalles de Contacto</h2>
+        <table border="1">
+            <thead>
+            <tr>
+                <th>Tipo</th>
+                <th>Detalle</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Email</td>
+                <td>matyalta11@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Teléfono</td>
+                <td>261 5169537</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <!-- Formulario -->
+    <section>
+        <h2>Actualizar Perfil</h2>
+        <form>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" value="Matías Altamirano"><br><br>
+
+            <label for="correo">Correo electrónico:</label><br>
+            <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com"><br><br>
+
+            <label for="bio">Biografía:</label><br>
+            <textarea id="bio" name="bio" rows="4" cols="40" placeholder="Escribe algo sobre ti"></textarea><br><br>
+
+            <button type="submit">Guardar</button>
+        </form>
+    </section>
+</main>
+
+<!-- Pie de página -->
+<footer>
+    <p>© 2025 Perfil de Usuario - UTN Sistemas</p>
+</footer>
 </body>
 </html>
